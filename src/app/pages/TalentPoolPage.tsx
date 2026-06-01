@@ -82,7 +82,7 @@ export function TalentPoolPage() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {[
             { label: "Total de Candidatas", value: "2.847", color: "text-[#3E0014]", bg: "bg-[#FEF7F9]" },
-            { label: "Matches +90%", value: "486", color: "text-[#5B002C]", bg: "bg-[#FFFBFC]" },
+            { label: "Chances +90%", value: "486", color: "text-[#5B002C]", bg: "bg-[#FFFBFC]" },
             { label: "Novas esta semana", value: "124", color: "text-[#AC1634]", bg: "bg-[#FDF0F4]" },
             { label: "Favoritas", value: "38", color: "text-[#7A002B]", bg: "bg-[#FEF7F9]" },
           ].map((stat, i) => (
@@ -140,7 +140,7 @@ export function TalentPoolPage() {
                   <div className="text-right">
                     <div className="bg-gradient-to-br from-[#5B002C] to-[#AC1634] text-white px-4 py-2 rounded-xl shadow-md">
                       <span className="text-2xl font-black">{talent.match}%</span>
-                      <p className="text-xs uppercase font-bold opacity-90">Match</p>
+                      <p className="text-xs uppercase font-bold opacity-90">Chance</p>
                     </div>
                   </div>
                 </div>

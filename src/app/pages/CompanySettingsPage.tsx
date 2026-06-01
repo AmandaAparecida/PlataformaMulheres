@@ -90,7 +90,7 @@ export function CompanySettingsPage() {
             <div className="space-y-4">
               {[
                 { label: "Novas candidaturas", desc: "Notificar quando uma candidata se candidatar" },
-                { label: "Matches de alta relevância", desc: "Alertas de matches acima de 90%" },
+                { label: "Chances de alta relevância", desc: "Alertas de chances acima de 90%" },
                 { label: "Atualizações de produto", desc: "Novidades e melhorias da plataforma" },
               ].map((item, i) => (
                 <div key={i} className="flex items-center justify-between p-4 bg-[#FFFBFC] rounded-xl">
