@@ -90,7 +90,7 @@ export function CandidateSettingsPage() {
 
             <div className="space-y-4">
               {[
-                { label: "Novas vagas recomendadas", desc: "Receber alertas de vagas com alto match" },
+                { label: "Novas vagas recomendadas", desc: "Receber alertas de vagas com alta chance de contratação" },
                 { label: "Mensagens de empresas", desc: "Notificar quando uma empresa entrar em contato" },
                 { label: "Atualizações da comunidade", desc: "Posts e comentários de interesse" },
                 { label: "E-mail semanal", desc: "Resumo semanal de atividades e oportunidades" },
