@@ -22,7 +22,7 @@ export function NotificationsPanel({ isOpen, onClose, userType }: NotificationsP
     {
       id: "1",
       type: "match",
-      title: "Novo match de 94%!",
+      title: "Nova chance de 94%!",
       message: "A vaga 'Senior Frontend Engineer' na TechNova Corp combina muito com você.",
       time: "5 min atrás",
       read: false,
@@ -62,7 +62,7 @@ export function NotificationsPanel({ isOpen, onClose, userType }: NotificationsP
       id: "1",
       type: "application",
       title: "Nova candidatura!",
-      message: "Carolina Alves se candidatou para 'Data Scientist' (Match: 98%).",
+      message: "Carolina Alves se candidatou para 'Data Scientist' (Chance: 98%).",
       time: "10 min atrás",
       read: false,
       icon: <Users className="w-5 h-5 text-[#AC1634]" />,
@@ -70,8 +70,8 @@ export function NotificationsPanel({ isOpen, onClose, userType }: NotificationsP
     {
       id: "2",
       type: "match",
-      title: "Match de alto nível detectado",
-      message: "Encontramos 3 candidatas com match acima de 90% para sua vaga.",
+      title: "Chance de alto nível detectada",
+      message: "Encontramos 3 candidatas com chance acima de 90% para sua vaga.",
       time: "1h atrás",
       read: false,
       icon: <TrendingUp className="w-5 h-5 text-[#5B002C]" />,
